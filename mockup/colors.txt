@@ -1,0 +1,22 @@
+header: #2571b7
+header button: #002050
+first button: #00a4ef
+gray letter of Lorem: #6c6c6c
+red letter of Lorem: #f03906
+blue letter of Lorem:#2571b7
+
+blue image: #0072c6
+dark blue image: #2c5898
+dark green image: #207245
+dark orange image: #cb4a32
+purple image: #733781
+light blue image: #00aff0
+
+green image: #7fba00
+blue image: #00a4ef
+orange image: #ffb900
+form color: #e6e6e6
+form letter: #4685bf
+form squad: #1768b2
+
+dark blue Lorem image: #003467
