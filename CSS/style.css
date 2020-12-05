@@ -1,9 +1,39 @@
 * {
-	/*box-sizing: border-box;
 	margin: 0;
-	padding: 0; */
+	padding: 0;
+	list-style: none;
+
 	font-family: "DEU RUIMMM assets e img/segoeui.ttf";
 
+}
+
+h1{
+	text-align: center;
+}
+
+
+p {
+	text-align: center;
+}
+
+.cover{
+	min-height: 100vh;
+	background: url('../assets e img/ballpen-blur-close-up-461077.png') no-repeat center center / cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.bottom_cover{
+	display: flex;
+	font-size: 1.75em;
+
+	> * + * {
+		margin-left: 100px;
+		margin-bottom: 100px;
+	}
 }
 
 header{
@@ -18,6 +48,13 @@ header{
 .header_items{
 	display: inline-block;
 }
+
+article{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
 
 /* CONTAINER */
 .container{
@@ -34,9 +71,8 @@ header{
 }
 
 .container ul li{
-	list-style: none;
 	float: left;
-	width: 45%;
+	width: 20%;
 	height: 100px;
 	background: red;
 	margin: 40px 0px 0px 50px;
@@ -84,6 +120,10 @@ header{
 
 /* FIM CONTAINER */
 
+.mask_group{
+	background: url('../assets e img/Grupo de máscara 1.png') no-repeat center center / cover;
+}
+
 
 .spaced_side {
 	width: 100px;
@@ -92,18 +132,19 @@ header{
 }
 
 
-.image_beside{
-	display: inline-block;
+img, p{
 	float: left;
-
 }
 
 
-h1{
-	text-align: center;
+.cover2{
+	min-height: 100vh;
+	background: url('../assets e img/achievement-adult-agreement-1391373.png') no-repeat center center / cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
 }
 
 
-p {
-	text-align: center;
-}
