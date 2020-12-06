@@ -119,13 +119,19 @@ article{
 
 
 .cover2{
-	min-height: 100vh;
+	min-height: 40vh;
 	background: url('../assets e img/achievement-adult-agreement-1391373.png') no-repeat center center / cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	color: white;
+
 }
+
+.cover2 img{
+	height: 30px;
+}
+
 
 
