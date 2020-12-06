@@ -1,5 +1,5 @@
 /* container2x5 */
-.container2x5{
+.container3x1{
 	width: 95%;
 	overflow: hidden;
 	background:skyblue;
@@ -7,16 +7,16 @@
 	padding: 20px 20px;
 }
 
-.container2x5 ul{
+.container3x1 ul{
 	padding: 0px;
 	margin: 0px;
 
 }
 
-.container2x5 ul li{
+.container3x1 ul li{
 	float: left;
-	width: 40%;
-	height: 120px;
+	width: 25%;
+	height: 400px;
 	background: red;
 	margin: 50px 0px 0px 6%;
 	box-sizing: border-box;
@@ -24,25 +24,25 @@
 }
 
 
-.container2x5 ul li:hover{
+.container3x1 ul li:hover{
 	opacity: 0.7;
 }
 
-.container2x5 ul li .title{
+.container3x1 ul li .title{
 	width: 100%;
-	height: 50px;
+	height: 200px;
 	line-height: 50px;
 	background: white;
 	text-align: center;
 }
 
-.container2x5 ul li .title:hover{
+.container3x1 ul li .title:hover{
 	background: blue;
 	color: black;
 }
 
 @media screen and (max-width: 1250px) {
-	.container2x5 ul li{
+	.container3x1 ul li{
 		width: 40%;
 		margin-left: 50px;
 	}
@@ -50,11 +50,11 @@
 
 @media screen and (max-width: 750px) {
 
-	.container2x5{
+	.container3x1{
 		width: 100%;
 		padding: 0px;
 	}
-	.container2x5 ul li{
+	.container3x1 ul li{
 		float: none;
 		width: 90%;
 		margin: 40px auto;
