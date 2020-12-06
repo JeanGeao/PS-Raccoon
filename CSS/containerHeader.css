@@ -1,0 +1,66 @@
+.containerHeader{
+
+	top:0px;
+	left:0px;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	float: left;
+	padding: 3% 4%;
+	text-align: center;
+	background: #2571b7;
+}
+
+
+.bgGradient{
+	background-color: linear-gradient(to right, #2571b7, #EEE)
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	background: url('../assets e img/Grupo 105.png') center center /100px no-repeat;
+}
+
+.btMenu{
+	display: none;
+	width: 56px;
+	height: 56px;
+	float: left;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+
+.menu{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,0.9);
+	top: 0;
+	right: 0;
+}
+
+.btClose{
+	font-size: 1.5em;
+	color:#FFF;
+	float: right;
+	cursor: pointer;
+	margin: 2% 3% 0 0;
+}
+
+.menu ul{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.menu ul li{
+	padding: 2%;
+}
+
+.menu ul li a{
+	font-size: 2em;
+	color: #FFF;
+}

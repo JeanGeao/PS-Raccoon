@@ -1,0 +1,71 @@
+
+@media screen and (max-width: 1250px) {
+	.container2x5 ul li{
+		width: 40%;
+		margin-left: 50px;
+	}
+	.container3x1 ul li{
+		width: 40%;
+		margin-left: 50px;
+	}
+	.container4x1 ul li{
+		width: 40%;
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.btMenu{
+		display: block;
+	}
+	.logo{
+	width: 56px;
+	height: 56px;
+	float: left;
+	background: url('../assets e img/Grupo 105.png') center center /56px no-repeat;
+	}
+	.bottom_left_cover i{
+	display: none;	
+	}
+	.bottom_cover div{
+	display: inline-block;
+	min-width: 30vh;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 30vh;
+	}
+
+	.container2x5{
+		width: 100%;
+		padding: 0px;
+	}
+	.container2x5 ul li{
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
+
+	.container3x1{
+		width: 100%;
+		padding: 0px;
+	}
+	.container3x1 ul li{
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
+
+	.container4x1{
+		width: 100%;
+		padding: 0px;
+	}
+	.container4x1 ul li{
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
+}
+
+
+

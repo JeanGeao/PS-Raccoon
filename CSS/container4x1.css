@@ -19,7 +19,6 @@
 	height: 300px;
 	background: red;
 	margin: 0px 0px 0px 0%;
-	box-sizing: border-box;
 	border: 10px solid white;
 }
 
@@ -41,22 +40,3 @@
 	color: black;
 }
 
-@media screen and (max-width: 1250px) {
-	.container4x1 ul li{
-		width: 40%;
-		margin-left: 50px;
-	}
-}
-
-@media screen and (max-width: 750px) {
-
-	.container4x1{
-		width: 100%;
-		padding: 0px;
-	}
-	.container4x1 ul li{
-		float: none;
-		width: 90%;
-		margin: 40px auto;
-	}
-}

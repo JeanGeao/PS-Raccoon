@@ -1,0 +1,28 @@
+.cover{
+	min-height: 100vh;
+	background: url('../assets e img/ballpen-blur-close-up-461077.png') no-repeat center center / cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.bottom_cover div{
+	display: inline-block;
+	min-width: 70vh;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10vh;
+}
+
+.bottom_right_cover{
+	background-color: blue;
+
+}
+
+.bottom_left_cover{
+	background-color: red;
+	
+}

@@ -1,30 +1,3 @@
-* {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	font-family: "Segoeu";
-	font-size: 16px;
-
-}
-
-@font-face {
-  font-family: "Segoeu";
-  src: url("../assets e img/segoeui.ttf");
-}
-
-@font-face {
-  font-family: "Segoeu";
-  font-weight: 600;
-  src: url("../assets e img/segoeuib.ttf");
-}
-
-@font-face {
-  font-family: "Segoeu";
-  font-style: italic;
-  src: url("../assets e img/segoeuil.ttf");
-}
-
-
 h1{
 	text-align: center;
 	font-size: 30px;
@@ -35,51 +8,33 @@ h2{
 	font-size: 18px;
 }
 
-
-
 p {
 	text-align: center;
 }
 
-
-.cover{
-	min-height: 100vh;
-	background: url('../assets e img/ballpen-blur-close-up-461077.png') no-repeat center center / cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	color: white;
+a {
+	text-decoration: none;
 }
 
-.bottom_cover{
-	display: flex;
-	font-size: 1.75em;
-
-	> * + * {
-		margin-left: 100px;
-		margin-bottom: 100px;
-	}
+ul {
+	list-style: none;
+}
+main{
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
-header{
-	background: #2571b7;
-	position: fixed;
-	top:0px;
-	left:0px;
-	width: 100%;
-	height: 50px;
+
+
+
+.downArrow i{
+	width: 300px;
+	height: 300px;
 }
 
 .header_items{
 	display: inline-block;
 }
-
-article{
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
-
 
 
 .mask_group{
@@ -92,6 +47,8 @@ article{
     height: 100px;
     display: inline-block;
 }
+
+
 
 #image_beside{
 	margin-top: 10px;
@@ -117,21 +74,6 @@ article{
 }
 
 
-
-.cover2{
-	min-height: 40vh;
-	background: url('../assets e img/achievement-adult-agreement-1391373.png') no-repeat center center / cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	color: white;
-
-}
-
-.cover2 img{
-	height: 30px;
-}
 
 
 
