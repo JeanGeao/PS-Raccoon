@@ -2,19 +2,53 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	font-family: "Segoeu";
+	font-size: 16px;
 
-	font-family: "DEU RUIMMM assets e img/segoeui.ttf";
+}
 
+@font-face {
+  font-family: "Segoeu";
+  src: url("../assets e img/segoeui.ttf");
+}
+
+@font-face {
+  font-family: "Segoeu";
+  font-weight: 600;
+  src: url("../assets e img/segoeuib.ttf");
+}
+
+@font-face {
+  font-family: "Segoeu";
+  font-style: italic;
+  src: url("../assets e img/segoeuil.ttf");
+}
+
+
+b{
+	
+}
+
+i {
+	
 }
 
 h1{
 	text-align: center;
+	font-size: 30px;
 }
+
+h2{
+	text-align: center;
+	font-size: 18px;
+}
+
 
 
 p {
 	text-align: center;
 }
+
 
 .cover{
 	min-height: 100vh;
@@ -56,69 +90,9 @@ article{
 
 
 
-/* CONTAINER */
-.container{
-	width: 90%;
-	overflow: hidden;
-	background:skyblue;
-	margin: 20px auto;
-	padding: 20px 0px;
-}
-
-.container ul{
-	padding: 0px;
-	margin: 0px;
-}
-
-.container ul li{
-	float: left;
-	width: 20%;
-	height: 100px;
-	background: red;
-	margin: 40px 0px 0px 50px;
-	box-sizing: border-box;
-	border: 2px solid white;
-}
 
 
-.container ul li:hover{
-	opacity: 0.9;
-}
-
-.container ul li .title{
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	background: white;
-	text-align: center;
-}
-
-.container ul li .title:hover{
-	background: blue;
-	color: black;
-}
-
-@media screen and (max-width: 1250px) {
-	.container ul li{
-		width: 40%;
-		margin-left: 50px;
-	}
-}
-
-@media screen and (max-width: 750px) {
-
-	.container{
-		width: 100%;
-		padding: 0px;
-	}
-	.container ul li{
-		float: none;
-		width: 90%;
-		margin: 40px auto;
-	}
-}
-
-/* FIM CONTAINER */
+/* FIM container2x5 */
 
 .mask_group{
 	background: url('../assets e img/Grupo de máscara 1.png') no-repeat center center / cover;
@@ -131,10 +105,29 @@ article{
     display: inline-block;
 }
 
-
-img, p{
-	float: left;
+#image_beside{
+	margin-top: 10px;
 }
+
+
+
+#image_beside img{
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+#image_beside p h2{
+
+}
+
+#image_beside p{
+	text-align: left;
+}
+
+#image_beside h2{
+	text-align: left;
+}
+
 
 
 .cover2{
