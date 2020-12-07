@@ -2,31 +2,60 @@
 .container3x1{
 	width: 95%;
 	overflow: hidden;
-	background:skyblue;
 	margin: 20px auto;
 	padding: 20px 20px;
+	margin-top: 100px;
 }
 
-.img_width{
+.container3x1 h1{
+	color: #2571b7;
+}
 
-	background: green;
+.container3x1 ul li .img_width1{
+	background: #7fba00;
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
 	overflow: hidden;
 	position: relative;
+	margin-bottom: 20px;
+}
+.container3x1 ul li .img_width2{
+	background: #00a4ef;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+.container3x1 ul li .img_width3{
+	background: #ffb900;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.container3x1 ul li ._1{
+	color: #7fba00;
+}
+.container3x1 ul li ._2{
+	color: #00a4ef;
+}
+.container3x1 ul li ._3{
+	color: #ffb900;
 }
 
 
-
-.img_width img{
+.container3x1 .img_width img{
 	position: absolute;
 	bottom: 25%;
 	width: 50%;
 	left: 25%
 }
-
-
 
 .container3x1 ul{
 	padding: 0px;
@@ -38,7 +67,6 @@
 	float: left;
 	width: 25%;
 	height: 400px;
-	background: red;
 	margin: 50px 0px 0px 6%;
 	border: 10px solid white;
 }
@@ -57,7 +85,6 @@
 }
 
 .container3x1 ul li .title:hover{
-	background: blue;
 	color: black;
 }
 

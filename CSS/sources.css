@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "Segoeu";
+  font-family: "segoeui";
   src: url("../assets e img/segoeui.ttf");
 }
 
 @font-face {
-  font-family: "Segoeu";
+  font-family: "segoeui";
   font-weight: 600;
   src: url("../assets e img/segoeuib.ttf");
 }
 
 @font-face {
-  font-family: "Segoeu";
+  font-family: "segoeui";
   font-style: italic;
   src: url("../assets e img/segoeuil.ttf");
 }

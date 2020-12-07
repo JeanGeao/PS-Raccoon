@@ -2,7 +2,7 @@
 .container2x5{
 	width: 95%;
 	overflow: hidden;
-	background:skyblue;
+
 	margin: 20px auto;
 	padding: 20px 20px;
 }
@@ -17,9 +17,13 @@
 	float: left;
 	width: 40%;
 	height: 120px;
-	background: red;
 	margin: 50px 0px 0px 6%;
 	border: 10px solid white;
+	color: white;
+}
+
+.container2x5 p{
+	color: #6c6c6c;
 }
 
 
@@ -36,9 +40,84 @@
 }
 
 .container2x5 ul li .title:hover{
-	background: blue;
 	color: black;
 }
 
 
+.container2x5 ul li #image_beside{
+	margin-top: 10px;
+}
+
+.container2x5 ul li #image_beside img{
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+.container2x5 ul li #image_beside p h2{
+
+}
+
+.container2x5 ul li #image_beside p{
+	text-align: left;
+}
+
+.container2x5 ul li #image_beside h2{
+	text-align: left;
+}
+
+.container2x5 h1{
+	color: #2571b7;
+}
+
+.container2x5 ul li ._1{
+	background: #0072c6;
+	margin: 20px auto;
+	padding: 20px 20px;
+	color: white;
+}
+.container2x5 ul li ._2{
+	background: #2c5898;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._3{
+	background: #207245;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._4{
+	background: #cb4a32;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._5{
+	background: #733781;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._6{
+	background: #00aff0;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._7{
+	background: #094ab2;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._8{
+	background: #0073c6;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._9{
+	background: #0093be;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
+.container2x5 ul li ._10{
+	background: #5558af;
+	margin: 20px auto;
+	padding: 20px 20px;
+}
 

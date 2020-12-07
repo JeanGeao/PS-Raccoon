@@ -1,11 +1,15 @@
+body{
+	font-family: "segoeui";
+	display: inline;
+}
+
 h1{
-	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 h2{
 	text-align: center;
-	font-size: 18px;
+	font-size: 30px;
 }
 
 p {
@@ -20,58 +24,19 @@ ul {
 	list-style: none;
 }
 main{
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin: 100px 100px 100px 100px;
 }
 
-
-
-
-.downArrow i{
-	width: 300px;
-	height: 300px;
+header{
+	font-family: "segoeui";
 }
 
-.header_items{
-	display: inline-block;
+nav{
+	background: #2571b7;
+	height: 80px;
+	width: 100%;
 }
 
-
-.mask_group{
-	background: url('../assets e img/Grupo de máscara 1.png') no-repeat center center / cover;
-}
-
-
-.spaced_side {
-	width: 100px;
-    height: 100px;
-    display: inline-block;
-}
-
-
-
-#image_beside{
-	margin-top: 10px;
-}
-
-
-
-#image_beside img{
-	float: left;
-	margin: 10px 10px 10px 10px;
-}
-
-#image_beside p h2{
-
-}
-
-#image_beside p{
-	text-align: left;
-}
-
-#image_beside h2{
-	text-align: left;
-}
 
 
 

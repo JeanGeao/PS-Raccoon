@@ -1,28 +1,75 @@
 .cover{
 	min-height: 100vh;
-	background: url('../assets e img/ballpen-blur-close-up-461077.png') no-repeat center center / cover;
-	display: flex;
-	flex-direction: column;
+	background: url("../assets e img/ballpen-blur-close-up-461077.png") no-repeat;
+	background-size: cover;
+	height: calc(100vh - 80px)
 	justify-content: space-between;
-	align-items: center;
 	color: white;
 }
 
-.bottom_cover div{
-	display: inline-block;
-	min-width: 70vh;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 10vh;
+.top_cover{
+	margin-left: 100px;
+	min-height: 150px;
 }
 
-.bottom_right_cover{
-	background-color: blue;
 
+
+.center_cover{
+
+	margin-left: 30px;
+    display: block;
+    width: 160px;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: #00a4ef;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.bottom_right_cover{
+	
 }
 
 .bottom_left_cover{
-	background-color: red;
 	
+}
+
+.margin{
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    color: white;
+    max-height: 40px;
+}
+
+.heroTitle{
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 12vh;
+    
+}
+
+.heroText{
+    font-size: 32px;
+    margin-top: 10%;
+    line-height: 40px;
+}
+
+.heroButton{
+    color: white;
+    font-size:28px;
+    background-color:#00A4EF;
+    padding: 20px 10px;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    margin: 10vh auto 0;
+}
+
+.heroLogo{
+    margin: 16vh auto;
 }

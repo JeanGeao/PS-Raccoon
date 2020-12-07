@@ -11,6 +11,10 @@ dark green image: #207245
 dark orange image: #cb4a32
 purple image: #733781
 light blue image: #00aff0
+blue image_7: #094ab2
+blue image_8: #0073c6
+blue image_9: #0093be
+purple image_10: #5558af
 
 green image: #7fba00
 blue image: #00a4ef
