@@ -1,38 +1,67 @@
-div.logo{
-	background: url("../assets e img/Grupo 105.png");
-	width: 200px;
-	height: 50px;
-	margin-top: 20px;
-	margin-left: 10px;
-	display: inline-block;
-	background-repeat: no-repeat;
+
+
+
+
+.containerHeader nav > a{
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 32px;
 }
 
-nav ul{
-	float: right;
-	margin-right: 20px;
+
+
+
+
+.containerHeader nav ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	width: 80%;
 }
 
-nav ul li{
+.containerHeader nav ul li{
+/*
 	display: inline-block;
 	line-height: 80px;
 	margin: 0 3px;
+*/
+	text-align: center;
+	width: 100%;
 }
 
-nav ul li a{
+
+.containerHeader nav ul li img{
+	width: 100px;
+	margin-right: 250px;
+
+}
+
+.containerHeader nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 70%;
+	text-decoration: none;
+	color: white;
+
+/*
 	color: white;
 	font-size: 14px;
 	padding: 7px 13px;
 	border-radius: 3px;
 	text-transform: uppercase;
+	*/
 }
 
-a.active,a:hover{
+.containerHeader a .active,a:hover{
 	background: #002050;
 	transition: .5s;
 }
 
-.checkbtn{
+
+
+.containerHeader .checkbtn{
 	font-size: 30px;
 	color: white;
 	float: right;
@@ -41,8 +70,9 @@ a.active,a:hover{
 	cursor: pointer;
 	display: none;
 }
-#check{
+.containerHeader #check{
 	display: none; 
 }
+
 
 

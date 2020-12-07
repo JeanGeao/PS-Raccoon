@@ -27,13 +27,14 @@ main{
 	margin: 100px 100px 100px 100px;
 }
 
-header{
-	font-family: "segoeui";
-}
-
 nav{
+	display: flex;
+	position: fixed;
+	flex-direction: row;
+	align-items: center;
 	background: #2571b7;
-	height: 80px;
+	justify-content: space-around;
+	height: 60px;
 	width: 100%;
 }
 
