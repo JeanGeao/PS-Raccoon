@@ -1,15 +1,30 @@
 .bottomCover{
 	min-height: 40vh;
-	background: url('../assets e img/achievement-adult-agreement-1391373.png') no-repeat center center / cover;
+	background: url('../assets e img/EDIT_achievement-adult-agreement-1391373.png') no-repeat center center / cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	color: white;
+	font-size: 35px;
+	text-align: center;
+	transition-duration: opacity 20s;
+}
 
+.bottomCover:hover{
+	background: url('../assets e img/achievement-adult-agreement-1391373.png') no-repeat center center / cover;
 }
 
 .bottomCover img{
 	height: 30px;
 }
 
+.bottomCover div p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:900px;
+  height:280px;
+  margin:auto;
+
+}

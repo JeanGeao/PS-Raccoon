@@ -1,11 +1,13 @@
 .cover{
 	min-height: 100vh;
-	background: url("../assets e img/ballpen-blur-close-up-461077.png") no-repeat;
+	background: url("../assets e img/EDIT_ballpen-blur-close-up-461077.png") no-repeat;
 	background-size: cover;
 	height: calc(100vh - 80px)
 	justify-content: space-between;
 	color: white;
 }
+
+
 
 .top_cover{
 	margin-left: 100px;

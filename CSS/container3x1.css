@@ -11,6 +11,10 @@
 	color: #2571b7;
 }
 
+.container3x1 p{
+	color: #6c6c6c;
+}
+
 .container3x1 ul li .img_width1{
 	background: #7fba00;
 	border-radius: 50%;
@@ -50,11 +54,10 @@
 }
 
 
-.container3x1 .img_width img{
+.container3x1 ul li .img_width img{
 	position: absolute;
-	bottom: 25%;
-	width: 50%;
-	left: 25%
+	bottom: 0;
+	width: 100%;
 }
 
 .container3x1 ul{
