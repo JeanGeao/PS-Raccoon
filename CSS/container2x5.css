@@ -2,7 +2,6 @@
 .container2x5{
 	width: 95%;
 	overflow: hidden;
-
 	margin: 20px auto;
 	padding: 20px 20px;
 }
@@ -10,12 +9,11 @@
 .container2x5 ul{
 	padding: 0px;
 	margin: 0px;
-
 }
 
 .container2x5 ul li{
 	float: left;
-	width: 40%;
+	width: 80vh;
 	height: 120px;
 	margin: 50px 0px 0px 6%;
 	border: 10px solid white;
@@ -53,9 +51,6 @@
 	margin: 10px 10px 10px 10px;
 }
 
-.container2x5 ul li #image_beside p h2{
-
-}
 
 .container2x5 ul li #image_beside p{
 	text-align: left;

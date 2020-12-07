@@ -9,21 +9,20 @@
 
 
 
-.top_cover{
+.cover .top_cover{
 	margin-left: 100px;
 	min-height: 150px;
 }
 
 
 
-.center_cover{
+.cover .center_cover{
 
-	margin-left: 30px;
+	margin-left: 100px;
     display: block;
     width: 160px;
     height: 40px;
     padding: 10px 5px;
-    margin: 20px;
     background-color: #00a4ef;
     color: white;
     text-decoration: none;
@@ -32,15 +31,23 @@
 
 
 
-.bottom_right_cover{
-	
+.cover .bottom_cover{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 100px 0 100px;
+    transform: translate(-50%,-50%);
 }
 
-.bottom_left_cover{
-	
+.cover .empty{
+    display: inline-block;
+    min-width: 300px;
+    height: 100px;
+    transform: translate(-50%,-50%);
 }
 
-.margin{
+
+.cover .margin{
     position: relative;
     z-index: 5;
     text-align: center;

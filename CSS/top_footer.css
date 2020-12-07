@@ -1,0 +1,14 @@
+.top_footer .logoLorem{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%,-50%);
+}
+
+.top_footer .empty{
+    display: inline-block;
+    width: 100px;
+    height: 400px;
+    transform: translate(-50%,-50%);
+}
+

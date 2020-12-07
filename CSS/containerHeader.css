@@ -1,16 +1,8 @@
-
-
-
-
 .containerHeader nav > a{
 	text-decoration: none;
 	font-weight: 800;
 	font-size: 32px;
 }
-
-
-
-
 
 .containerHeader nav ul{
 	display: flex;
@@ -22,11 +14,6 @@
 }
 
 .containerHeader nav ul li{
-/*
-	display: inline-block;
-	line-height: 80px;
-	margin: 0 3px;
-*/
 	text-align: center;
 	width: 100%;
 }
@@ -35,7 +22,6 @@
 .containerHeader nav ul li img{
 	width: 100px;
 	margin-right: 250px;
-
 }
 
 .containerHeader nav ul li a{
@@ -44,14 +30,6 @@
 	width: 70%;
 	text-decoration: none;
 	color: white;
-
-/*
-	color: white;
-	font-size: 14px;
-	padding: 7px 13px;
-	border-radius: 3px;
-	text-transform: uppercase;
-	*/
 }
 
 .containerHeader a .active,a:hover{
