@@ -68,10 +68,13 @@
 		padding: 0px;
 	}
 	.container4x1 ul li{
-		float: none;
-		width: 90%;
-		margin: 40px auto;
+
+	width: 22%;
+	height: 300px;
+	margin: 0px 0px 0px 0%;
+	border: 10px solid white;
 	}
+
 
 	.checkbtn{
 		display: block;

@@ -45,31 +45,3 @@
     color: white;
     max-height: 40px;
 }
-
-.heroTitle{
-    font-weight: bold;
-    font-size: 55px;
-    margin-top: 12vh;
-    
-}
-
-.heroText{
-    font-size: 32px;
-    margin-top: 10%;
-    line-height: 40px;
-}
-
-.heroButton{
-    color: white;
-    font-size:28px;
-    background-color:#00A4EF;
-    padding: 20px 10px;
-    text-decoration: none;
-    display: block;
-    width: 230px;
-    margin: 10vh auto 0;
-}
-
-.heroLogo{
-    margin: 16vh auto;
-}

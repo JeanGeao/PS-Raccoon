@@ -2,22 +2,22 @@
 .container4x1{
 	width: 95%;
 	overflow: hidden;
-	margin: 20px auto;
+	margin: 70px auto;
 	padding: 20px 20px;
 }
 
 .container4x1 ul{
 	padding: 0px;
-	margin: 0px;
+	margin: 30px;
 
 }
 
 .container4x1 ul li{
 	float: left;
 	width: 25%;
-	height: 300px;
+	height: 220px;
 	margin: 0px 0px 0px 0%;
-	border: 10px solid white;
+	border: 3px solid #dedede;
 }
 
 
@@ -33,7 +33,16 @@
 }
 
 .container4x1 ul li .title:hover{
-
 	color: black;
 }
 
+.container4x1 ul li .orange{
+	margin: 30px 10px 10px 10px;
+	color: #f25022;
+	font-size: 24px;
+	text-align: center;
+}
+.container4x1 ul li p{
+	margin: 30px 15px 15px 15px;
+	color: #6c6c6c;
+}

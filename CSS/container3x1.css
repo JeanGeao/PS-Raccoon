@@ -88,3 +88,41 @@
 	color: black;
 }
 
+.container3x1 ul li .bottom1{
+    width: 160px;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    border-spacing: 10px;
+    color: #7fba00;
+    text-decoration: none;
+    text-align: center;
+    border: 5px solid #7fba00;
+}
+.container3x1 ul li .bottom2{
+ 	width: 160px;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    border-spacing: 10px;
+    color: #00a4ef;
+    text-decoration: none;
+    text-align: center;
+    border: 5px solid #00a4ef;
+}
+.container3x1 ul li .bottom3{
+ 	width: 160px;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    border-spacing: 10px;
+    color: #ffb900;
+    text-decoration: none;
+    text-align: center;
+    border: 5px solid #ffb900;
+}
+
+.container3x1 ul li .line{
+	width: 60px;
+    border: 2px solid #dedede;
+}
